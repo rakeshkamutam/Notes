@@ -1,6 +1,6 @@
 # Deloitte | FS | L2 – Interview Preparation with Code Snippets
 
-## 📜 Table of Contents
+## Table of Contents
 1. [How can you design a class with sensitive information so that no developer can work with it or create its object?](#q1)  
 2. [How do you implement middleware in .NET Core, and what kind of custom middlewares can you create?](#q2)  
 3. [In RESTful APIs which are stateless, if something goes wrong at the API level, how would you log that error?](#q3)  
@@ -40,7 +40,7 @@ string encrypted = SensitiveDataHandler.GetEncryptedValue("MySecret");
 ```
 ✅ Developers cannot do `new SensitiveDataHandler()`.
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -77,7 +77,7 @@ app.UseMiddleware<RequestLoggingMiddleware>();
 - Request validation middleware
 - Rate-limiting middleware
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -120,7 +120,7 @@ public class ErrorHandlingMiddleware
 - Azure Application Insights  
 - Datadog  
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -149,7 +149,7 @@ public class ProductRepository : IProductRepository
 - Easier unit testing
 - Better maintainability
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -177,7 +177,7 @@ console.log(evens, squares, sum);
 15
 ```
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -193,7 +193,7 @@ console.log(evens, squares, sum);
 - **404** – Not Found  
 - **409** – Conflict
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -223,7 +223,7 @@ using (var connection = new SqlConnection(connString))
 - EF → ORM, generates SQL automatically, slower but easy to maintain.
 - Dapper → Micro ORM, manual SQL, faster but more code.
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -249,7 +249,7 @@ getData(): Observable<User> {
 }
 ```
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -261,7 +261,7 @@ getData(): Observable<User> {
 - Explain async/await and how it works internally.
 - What are some SQL performance optimization techniques you have used?
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
 
 ---
 
@@ -269,4 +269,4 @@ getData(): Observable<User> {
 
 > “I have gained strong technical skills in .NET, Angular, and cloud technologies. I’m now looking for an opportunity where I can work on more challenging projects, contribute to large-scale systems, and explore the latest technology stack to accelerate my career growth.”
 
-[🔼 Back to Top](#📜-table-of-contents)
+[🔼 Back to Top](#table-of-contents)
