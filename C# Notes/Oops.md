@@ -100,7 +100,37 @@ public class BankAccount
     
     public bool Withdraw(decimal amount)
     {
-        if (amount > 0 && amount  Console.WriteLine($"{Name} is eating");
+        if (amount > 0 && amount <= balance)
+        {
+            balance -= amount;
+            return true;
+        }
+        return false;
+    }
+}
+
+```
+
+[⬆ Back to Top](#table-of-contents)
+
+***
+
+## Inheritance
+Inheritance allows a class to inherit properties and methods from another class. The inheriting class is called a derived class or child class, and the inherited class is called a base class or parent class.
+
+### Benefits:
+- Code Reusability - Avoid writing duplicate code
+
+- Hierarchy - Create logical relationships between classes
+
+- Extensibility - Add new features to existing classes
+
+```csharp
+// Base class
+public class Animal
+{
+    public string Name { get; set; }
+    public void Eat() => Console.WriteLine($"{Name} is eating");
 }
 
 // Derived class
@@ -113,6 +143,7 @@ public class Dog : Animal
 Dog myDog = new Dog { Name = "Buddy" };
 myDog.Eat();  // Inherited from Animal
 myDog.Bark(); // Dog's own method
+
 ```
 
 [⬆ Back to Top](#table-of-contents)
