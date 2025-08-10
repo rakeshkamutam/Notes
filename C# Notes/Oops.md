@@ -116,6 +116,7 @@ public class BankAccount
 ***
 
 ## Inheritance
+
 Inheritance allows a class to inherit properties and methods from another class. The inheriting class is called a derived class or child class, and the inherited class is called a base class or parent class.
 
 ### Benefits:
