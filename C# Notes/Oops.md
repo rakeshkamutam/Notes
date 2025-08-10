@@ -454,6 +454,44 @@ public class DerivedClass : BaseClass
 
 ***
 
+## Sealed Classes and Methods
+The sealed keyword prevents inheritance of classes and overriding of methods.
+
+### Sealed Classes:
+- Cannot be inherited
+
+- Often used for security or performance reasons
+
+### Sealed Methods:
+- Cannot be overridden in derived classes
+
+- Must override a virtual method first
+
+```csharp
+// Sealed class - cannot be inherited
+public sealed class FinalClass
+{
+    public void DoSomething() => Console.WriteLine("Final implementation");
+}
+
+// Base class with virtual method
+public class BaseClass
+{
+    public virtual void Display() => Console.WriteLine("Base display");
+}
+
+// Derived class with sealed override
+public class DerivedClass : BaseClass
+{
+    public sealed override void Display() => Console.WriteLine("Sealed display");
+}
+
+// Cannot inherit from FinalClass or override Display in further derived classes
+
+```
+
+[⬆ Back to Top](#table-of-contents)
+
 ### Summary
 
 These OOP concepts work together to create maintainable, reusable, and scalable code. Understanding these fundamentals is essential for effective C# programming and building robust applications.
