@@ -120,11 +120,11 @@ public class BankAccount
 Inheritance allows a class to inherit properties and methods from another class. The inheriting class is called a derived class or child class, and the inherited class is called a base class or parent class.
 
 ### Benefits:
-- Code Reusability - Avoid writing duplicate code
+- **Code Reusability** - Avoid writing duplicate code
 
-- Hierarchy - Create logical relationships between classes
+- **Hierarchy** - Create logical relationships between classes
 
-- Extensibility - Add new features to existing classes
+- **Extensibility** - Add new features to existing classes
 
 ```csharp
 // Base class
